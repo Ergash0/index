@@ -1,33 +1,23 @@
-<html>
-<body>
-     <style>
-     .rihgtimg{
-           float: right;
-           marging: 7px 0 7px 7px;
-     }   
-     
-     
-     
-     
-     
-     
-     
-</style>     
-<pre><h1 syle="text-align: center;">                                         my Portofolio:
-<pre><h2>Name:  Nurik</h2></pre>
-<pre><h2>Info: I live in Bishkek. 17 years old
-i study in kolledj Alatoo</h2></pre>                  
-<pre><h2>Phone number: 0709491919</h2></pre>
-<img src="index.jpg" alt="">
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
 
-<pre><h1;">
-<html>
-<body>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
 
-<h2></h2>
-<img src="nur.png" alt="Trulli" width="500" height="333">
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
 
-</body>
-</html>
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
 
-
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
